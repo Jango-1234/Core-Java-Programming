@@ -22,7 +22,7 @@ public class DuplicateElementsInStringArray {
 		System.out.println("*************");
 		
 		//Approach2 ---> Timecomplexity is O(n)
-		Set<String> store = new HashSet<String>();
+		Set<String> store = new HashSet<String>(); //HashSet ensures that each element is stored only once. This is crucial for identifying duplicates.
 		for (String name : names) {
 			if (store.add(name)== false) {
 				System.out.println("Duplicate element is:" +name);

@@ -22,7 +22,7 @@ public class DuplicateWordsInAString {
 		// create one hashmap:
 		Map<String, Integer> wordCount = new HashMap<String, Integer>();
 
-		// To cehck each word in given array:
+		// To check each word in given array:
 		for (String word : words) {
 
 			// if word is present:
